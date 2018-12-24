@@ -14,3 +14,6 @@ function relocate_train() {
 function relocate_project1() {
     location.href = "https://shawnard.github.io/Brewtiful/index.html";
 }
+function relocate_friendfinder() {
+    location.href = "https://sheltered-dusk-67367.herokuapp.com";
+}
