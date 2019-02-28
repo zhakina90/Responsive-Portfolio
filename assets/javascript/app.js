@@ -17,3 +17,9 @@ function relocate_project1() {
 function relocate_friendfinder() {
     location.href = "https://sheltered-dusk-67367.herokuapp.com";
 }
+function relocate_virtualcasino() {
+    location.href = "https://virtual-casino.herokuapp.com/";
+}
+function relocate_collab() {
+    location.href = "https://appcollab.herokuapp.com/";
+}

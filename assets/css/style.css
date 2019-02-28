@@ -28,13 +28,17 @@ body {
   p:last-child {
     margin-bottom: 0;
   }
-  
+   
+  p{
+    color: rgb(192, 192, 192);
+
+  }
   h1,
   h2,
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #d5e0e0;
   }
   
   h1 {
@@ -42,7 +46,9 @@ body {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
-    color: black;
+    color: rgb(192, 192, 192);
+    text-align: center; 
+  text-shadow: 1px 1px 2px rgb(50, 221, 16), 0 0 25px blue, 0 0 5px darkblue;
   }
   
   h2,
@@ -58,8 +64,8 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
+    background: #131212;
+    border-bottom: 2px solid hsl(0, 0%, 5%);
   }
   
   #logo {
@@ -70,10 +76,10 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: black;
+    color: rgb(192, 192, 192);
     text-align: center;
     text-decoration: none;
-    background: red;
+    background: rgb(8, 8, 8);
   }
   
   nav {
@@ -86,7 +92,7 @@ body {
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: red;
+    color: rgb(192, 192, 192);
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -95,7 +101,14 @@ body {
     border-left: 0 none;
   }
   
-  
+   
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
   footer {
     padding: 30px 0;
     clear: both;
@@ -103,9 +116,9 @@ body {
     color: #ffffff;
     color: #cccccc;
     text-align: center;
-    background: #666666;
+    background: #020202;
     border-top: 8px solid black;
-    height: 30px;
+    height: 40px;
   }
   
   h3, h2 {
@@ -124,54 +137,35 @@ body {
   .main-section {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 800px;
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-    background: red;
+    background: rgb(3, 3, 3);
   }
+  
   
   /* portfolio page */
-  
   .work {
-    position: relative;
+    margin: 5px;
+    border: 1px solid #ccc;
     float: left;
-    width: 300px;
-    margin: 20px 0 25px;
-    overflow: auto;
+    width: 180px;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
+  .work:hover {
+    border: 1px solid rgb(93, 10, 248);
   }
   
   .work img {
     width: 100%;
-    border: 0 none;
-    opacity: 0.8;
+    height: auto;
   }
   
   .work h3 {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 25px;
-    color: black;
+    padding: 8px;
     text-align: center;
-    background: yellowgreen;
-    border-bottom: 0;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
   }
   
   /* contact page */
