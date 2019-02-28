@@ -1,0 +1,21 @@
+{
+  "name": "Zhamals_Portfolio",
+  "version": "1.0.0",
+  "description": "This is portfolio of Zhamal Nurdin kyzy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhakina90/Zhamals_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhakina90/Zhamals_Portfolio/issues"
+  },
+  "homepage": "https://github.com/zhakina90/Zhamals_Portfolio#readme",
+  "dependencies": {}
+}
